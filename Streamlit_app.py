@@ -11,7 +11,7 @@ st.title("Sea Animals Image Classification")
 
 st.write("Predict the Sea Animal that is being represented in the image.")
 
-model = load_model("C:/Users/sipis/Downloads/sea/seaImagemodel.h5",custom_objects={'KerasLayer':hub.KerasLayer})
+model = load_model("seaImagemodel.h5",custom_objects={'KerasLayer':hub.KerasLayer})
 labels = {
       0: 'Clams',
     1: 'Corals',
